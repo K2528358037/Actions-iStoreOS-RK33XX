@@ -45,8 +45,8 @@ jobs:
         personal_token: ${{ secrets.ACCESS_TOKEN }}
         publish_branch: main
         publish_dir: ./
-        user_name: 'GitHub Action'
-        user_email: 'github-actions[bot]@github.com'
+        user_name: 'darkmoon'
+        user_email: 'github-actions[bot]@2528358037@qq.com'
         exclude_assets: ''
         keep_files: true
         commit_message: "Sync files"
