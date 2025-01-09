@@ -27,7 +27,7 @@ cp -a $GITHUB_WORKSPACE/configfiles/etc/* package/base-files/files/etc/
 
 
 echo -e "\\define Device/lemonPi_pi1
-$(call Device/rk3588)
+\$(call Device/rk3588)
   DEVICE_MODEL := lemonpi-pi1
   SUPPORTED_DEVICES += lemonpi,lemonpi-pi1
   DEVICE_DTS := rk3588-lemonpi-pi1
