@@ -22,13 +22,7 @@
 
 | 设备           | 包名称                                                                   |
 | -------------- | ------------------------------------------------------------------------ |
-| H66K/H68K/H69K | istoreos-rockchip-rk35xx-hinlink_opc-h6xk-squashfs-combined.img.gz       |
-| H88K           | istoreos-rockchip-rk35xx-hinlink_h88k-squashfs-combined.img.gz           |
-| NANOPI-R5S     | istoreos-rockchip-rk35xx-friendlyarm_nanopi-r5s-squashfs-combined.img.gz |
-| NANOPI-R6S     | istoreos-rockchip-rk35xx-friendlyarm_nanopi-r6s-squashfs-combined.img.gz |
-| R66S/R68S      | istoreos-rockchip-rk35xx-fastrhino_r6xs-squashfs-combined.img.gz         |
-| STATION-P2     | istoreos-rockchip-rk35xx-firefly_station-p2-squashfs-combined.img.gz     |
-| T68M     | istoreos-rockchip-rk35xx-lyt_t68m-squashfs-combined.img.gz     |
+|Lemon-Pi				| istoreos-rockchip-rk35xx-lemonpi_pi1-squashfs-combined.img.gz           |
 
 ## 鸣谢
 
