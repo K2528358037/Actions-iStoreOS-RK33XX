@@ -36,6 +36,8 @@ TARGET_DEVICES += lemonPi_pi1" >> target/linux/rockchip/image/rk35xx.mk
 
 
 cp -f $GITHUB_WORKSPACE/configfiles/rk3588-lemonpi-pi1.dts target/linux/rockchip/dts/rk3588
+ls target/linux/rockchip/dts/rk3588
+cat target/linux/rockchip/image/rk35xx.mk
 
 
 
