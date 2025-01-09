@@ -18,18 +18,6 @@
 
 ## 支持架构
 
-### RK33xx 架构
-
-| 设备       | 包名称                                                                    | 说明 |
-| ---------- | ------------------------------------------------------------------------- | ------ |
-| R2S        | istoreos-rockchip-armv8-friendlyarm_nanopi-r2s-squashfs-sysupgrade.img.gz | 无 |
-| R4S        | istoreos-rockchip-armv8-friendlyarm_nanopi-r4s-squashfs-sysupgrade.img.gz | 无 |
-| R4SE       | istoreos-rockchip-armv8-friendlyarm_nanopi-r4se-squashfs-sysupgrade.img.gz | 无 |
-| ROCK-PI-4A | istoreos-rockchip-armv8-radxa_rock-pi-squashfs-sysupgrade.img.gz | 无 |
-| ROCKPRO64  | istoreos-rockchip-armv8-pine64_rockpro64-squashfs-sysupgrade.img.gz  | 无 |
-| R08  | istoreos-rockchip-armv8-rk3399_r08-squashfs-sysupgrade.img.gz  | 默认主路由模式 |
-| TPM312  | istoreos-rockchip-armv8-rk3399_tpm312-squashfs-sysupgrade.img.gz  | 默认旁路由模式 |
-
 ### RK35xx 架构
 
 | 设备           | 包名称                                                                   |
@@ -41,13 +29,6 @@
 | R66S/R68S      | istoreos-rockchip-rk35xx-fastrhino_r6xs-squashfs-combined.img.gz         |
 | STATION-P2     | istoreos-rockchip-rk35xx-firefly_station-p2-squashfs-combined.img.gz     |
 | T68M     | istoreos-rockchip-rk35xx-lyt_t68m-squashfs-combined.img.gz     |
-
-### x86 架构
-
-| 启动       | 包名称                                              |
-| ---------- | --------------------------------------------------- |
-| X86-64     | istoreos-x86-64-generic-squashfs-combined.img.gz    |
-| X86-64-EFI | storeos-x86-64-generic-squashfs-combined-efi.img.gz |
 
 ## 鸣谢
 
@@ -68,12 +49,3 @@
 - [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
 - [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
 - [draco-china/istoreos-actions](https://github.com/draco-china/istoreos-actions)
-
-## 捐赠
-- 如果你觉得此系统好用的话，请我喝一杯82年的凉白开吧，感谢！
-
--支付宝-
-# <img src="https://jihulab.com/xiaomeng9597/webfiles/-/raw/main/zfb.jpg?inline=true" alt="支付宝收款码" width="200" />
-
--微信-
-# <img src="https://jihulab.com/xiaomeng9597/webfiles/-/raw/main/weixin.jpg?inline=true" alt="微信收款码" width="200" />
