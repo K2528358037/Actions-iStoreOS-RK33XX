@@ -25,3 +25,18 @@ sed -i "s/:443/:4443/g" package/network/services/uhttpd/files/uhttpd.config
 cp -a $GITHUB_WORKSPACE/configfiles/etc/* package/base-files/files/etc/
 # ls package/base-files/files/etc/
 
+
+echo -e "\\define Device/lemonPi_pi1
+$(call Device/rk3588)
+  DEVICE_MODEL := lemonpi-pi1
+  SUPPORTED_DEVICES += lemonpi,lemonpi-pi1
+  DEVICE_DTS := rk3588-lemonpi-pi1
+  DVICE_PACKAGES := kmod-r8125 kmod-nvme kmod-scsi-core kmod-hwmon-pwmfan kmod-thermal
+endef
+TARGET_DEVICES += lemonPi_pi1" >> target/linux/rockchip/image/rk35xx.mk
+
+
+cp -f $GITHUB_WORKSPACE/configfiles/rk3588-lemonpi-pi1.dts target/linux/rockchip/dts/rk3588
+
+
+
