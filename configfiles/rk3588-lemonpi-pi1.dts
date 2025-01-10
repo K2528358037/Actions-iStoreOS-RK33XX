@@ -1124,19 +1124,6 @@
 	handle_cpu_id = <1>;
 	remote_support_psci = <0>;
 	status = "okay";
-        
-	ir_key7 {
-                rockchip,usercode = <0x4cb3>;
-                rockchip,key_table =
-                        <0x35   KEY_UP>,
-                        <0x2d   KEY_DOWN>,
-                        <0x66   KEY_LEFT>,
-                        <0x3e   KEY_RIGHT>,
-                        <0x7f   KEY_VOLUMEUP>,
-                        <0x7e   KEY_VOLUMEDOWN>,
-                        <0x23   KEY_POWER>, 
-                        <0x31   KEY_INFO1>,
-        };
 };
 
 &rga3_core0 {
