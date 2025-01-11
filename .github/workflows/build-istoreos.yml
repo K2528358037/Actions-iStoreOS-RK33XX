@@ -188,8 +188,6 @@ jobs:
 
         ⏱️ 编译时间: $(date +"%Y年%m月%d日%H时%M分")
 
-        🌐 管理地址: 192.168.100.1
-
         👤 用户名: root
 
         🔒 密码: password
@@ -206,8 +204,15 @@ jobs:
         files: ${{ env.FIRMWARE }}/*
 
     - name: 删除运行记录
-      uses: xiaomeng9597/delete-workflow-runs@main
+      uses: K2528358037/delete-workflow-runs@rk35xx
       with:
         retain_days: 1
         keep_minimum_runs: 1
         token: ${{ env.GITHUB_TOKEN }}
+        
+    - name: 删除自动发布的旧固件
+      uses: dev-drprasad/delete-older-releases@v0.3.3
+      if: env.UPLOAD_RELEASE == 'true' && !cancelled()
+      with:
+        keep_latest: 15
+        delete_tags: true
