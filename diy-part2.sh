@@ -12,6 +12,7 @@ echo -e "\\ndefine Device/lemonPi_pi1
   DEVICE_MODEL := lemonpi-pi1
   SUPPORTED_DEVICES += lemonpi,lemonpi-pi1
   DEVICE_DTS := rk3588-lemonpi-pi1
+  DEVICE_PACKAGES := kmod-nvme kmod-scsi-core kmod-hwmon-pwmfan kmod-thermal
 endef
 TARGET_DEVICES += lemonPi_pi1" >> target/linux/rockchip/image/rk35xx.mk
 
