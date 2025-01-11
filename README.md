@@ -2,7 +2,7 @@
 
 [![iStore使用文档](https://img.shields.io/badge/使用文档-iStore%20OS-brightgreen?style=flat-square)](https://doc.linkease.com/zh/guide/istoreos) [![最新固件下载](https://img.shields.io/github/v/release/xiaomeng9597/Actions-iStoreOS-RK33XX?style=flat-square&label=最新固件下载)](../../releases/latest)
 
-![支持设备](https://img.shields.io/badge/支持设备:-blueviolet.svg?style=flat-square) ![Pi1](https://img.shields.io/badge/L emonPi-pi1-blue.svg?style=flat-square)
+![支持设备](https://img.shields.io/badge/支持设备:-blueviolet.svg?style=flat-square) ![LemonPi-pi1](https://img.shields.io/badge/LemonPi-pi1-blue.svg?style=flat-square)
 
 ## 默认配置
 
